@@ -17,15 +17,15 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(coinAnimation.speed != coinAnimationSpeed && coinAnimationSpeed > 0)
+        if(coinAnimation.speed != coinAnimationSpeed && coinAnimationSpeed >= 0)
         {
             coinAnimation.speed = coinAnimationSpeed;
         }
-        if(boxAnimation.speed != boxAnimationSpeed && boxAnimationSpeed > 0) 
+        if(boxAnimation.speed != boxAnimationSpeed && boxAnimationSpeed >= 0) 
         { 
             boxAnimation.speed = boxAnimationSpeed;
         }
-        if(swordAnimation.speed != swordAnimationSpeed && swordAnimationSpeed > 0) 
+        if(swordAnimation.speed != swordAnimationSpeed && swordAnimationSpeed >= 0) 
         { 
             swordAnimation.speed = swordAnimationSpeed; 
         }
